@@ -1,0 +1,113 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    color: rgb(15, 95, 135);
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+P {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+    width: 1300px;
+    margin-bottom: 30px;
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    width: 1000px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #aebca2;
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: brown;
+}
+
+button {
+    grid-column: span 3;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #600000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    padding: 40px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    background-color: #f9f8f8;
+    border: 1px solid;
+}
+
+.pcos{
+    color: brown;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 15px;
+}
